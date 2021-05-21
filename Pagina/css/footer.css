@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'miFuente';
+    src: url(../fonts/YesevaOne-Regular.ttf);
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .containerf {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .containerf .sec {
+    margin-right: 30px;
+}
+
+footer .containerf .sec.aboutus {
+    width: 40%;
+}
+
+footer .containerf h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .containerf h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #e271a6;
+}
+
+footer .containerf .sec.aboutus p {
+    color: #999;
+}

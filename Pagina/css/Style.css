@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'miFuente';
+    src: url(../fonts/JosefinSans-Light.ttf);
+}
+
+* {
+    font-family: 'miFuente';
+}
+
+h1,
+h4 {
+    font-weight: bold;
+}
